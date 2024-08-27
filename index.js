@@ -18,12 +18,6 @@ async function webScraping() {
       productRating: $(product).find(".clr-shade-3").text(),
     });
   }
-  console.log(result);
 }
 
 webScraping();
-
-// Product Name
-// Price
-// Availability (In Stock/Out of Stock)
-// Product Rating (if available)
